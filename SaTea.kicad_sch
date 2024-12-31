@@ -4,6 +4,12 @@
 	(generator_version "8.0")
 	(uuid "c507c09e-473d-46c0-b697-fbecfd5f7725")
 	(paper "A4")
+	(title_block
+		(title "SaTea - small \"teachy\" satellite")
+		(date "12.12.2024")
+		(rev "2")
+		(company "TeaTech & VoŠ a SPŠE Plzeň")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x04"
 			(pin_names
@@ -976,7 +982,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin passive line
 					(at 7.62 -5.08 180)
 					(length 2.54)
 					(name "B-"
@@ -994,7 +1000,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin passive line
 					(at 7.62 2.54 180)
 					(length 2.54)
 					(name "B+"
@@ -3078,12 +3084,52 @@
 		(uuid "e04380c6-b3ec-4600-b042-4706e63d96cb")
 	)
 	(no_connect
+		(at 157.48 69.85)
+		(uuid "14caad14-9158-49b1-9158-70b43dca8f49")
+	)
+	(no_connect
+		(at 132.08 49.53)
+		(uuid "359e0e4c-20db-4351-a839-daeb64a951d9")
+	)
+	(no_connect
+		(at 132.08 52.07)
+		(uuid "8add2ad5-6606-4cd1-b368-fd8cf9d24890")
+	)
+	(no_connect
+		(at 132.08 57.15)
+		(uuid "95832924-5ab8-4158-887a-c9b0693f5a27")
+	)
+	(no_connect
+		(at 132.08 54.61)
+		(uuid "9bb25f03-6e2b-45b2-b861-43b6583cc99a")
+	)
+	(no_connect
 		(at 157.48 67.31)
 		(uuid "a3044ef8-1e0e-496c-a29e-2c0381f7e08c")
 	)
 	(no_connect
+		(at 246.38 34.29)
+		(uuid "b4888ae5-354f-4f04-b9f3-6c142dac9db9")
+	)
+	(no_connect
 		(at 157.48 54.61)
 		(uuid "cce244a6-0ab6-4320-9fc7-9aa9d22e182e")
+	)
+	(no_connect
+		(at 132.08 44.45)
+		(uuid "d527616d-0b33-482b-af37-2f556a9d2ad2")
+	)
+	(no_connect
+		(at 132.08 82.55)
+		(uuid "db957498-bf76-4af1-84fd-2afeeec57bdc")
+	)
+	(no_connect
+		(at 157.48 77.47)
+		(uuid "dfddeaf0-16c4-46b5-ad25-2723159285e0")
+	)
+	(no_connect
+		(at 157.48 74.93)
+		(uuid "efc7c1c5-41bc-4891-a24f-ecca8f3eb54f")
 	)
 	(wire
 		(pts
@@ -5078,7 +5124,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x06"
+		(property "Value" "Conn_01x04"
 			(at 24.13 170.1799 0)
 			(effects
 				(font
@@ -5107,6 +5153,42 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 26.67 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Inv. number" ""
+			(at 26.67 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mnf. number" ""
+			(at 26.67 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 26.67 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price (CZK) /pc" "0"
 			(at 26.67 168.91 0)
 			(effects
 				(font
@@ -5221,7 +5303,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x06"
+		(property "Value" "Conn_01x04"
 			(at 24.13 132.0799 0)
 			(effects
 				(font
@@ -5250,6 +5332,42 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 26.67 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Inv. number" ""
+			(at 26.67 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mnf. number" ""
+			(at 26.67 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 26.67 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price (CZK) /pc" "0"
 			(at 26.67 130.81 0)
 			(effects
 				(font
@@ -5297,7 +5415,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x06"
+		(property "Value" "Conn_01x04"
 			(at 77.47 170.1799 0)
 			(effects
 				(font
@@ -5326,6 +5444,42 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 74.93 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Inv. number" ""
+			(at 74.93 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mnf. number" ""
+			(at 74.93 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 74.93 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price (CZK) /pc" "0"
 			(at 74.93 168.91 0)
 			(effects
 				(font
@@ -5401,6 +5555,42 @@
 			)
 		)
 		(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
+			(at 116.84 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Inv. number" ""
+			(at 116.84 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mnf. number" ""
+			(at 116.84 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 116.84 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price (CZK) /pc" "0"
 			(at 116.84 133.35 0)
 			(effects
 				(font
@@ -5511,7 +5701,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "BMM"
 			(at 33.02 77.47 0)
 			(effects
 				(font
@@ -5528,7 +5718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.aliexpress.com/item/1005004427739715.html"
 			(at 33.02 86.36 0)
 			(effects
 				(font
@@ -5537,7 +5727,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "TP4056+DW01A battery management module"
+			(at 33.02 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Inv. number" "N/A"
+			(at 33.02 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mnf. number" "N/A"
+			(at 33.02 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Ali"
+			(at 33.02 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price (CZK) /pc" "6,28"
 			(at 33.02 86.36 0)
 			(effects
 				(font
@@ -5940,7 +6166,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.recom-power.com/pdf/Innoline/R-78Exx-0.5.pdf"
+		(property "Datasheet" "https://www.aliexpress.com/item/32809095271.html"
 			(at 59.69 43.18 0)
 			(effects
 				(font
@@ -5950,6 +6176,42 @@
 			)
 		)
 		(property "Description" "500mA Step-Down DC/DC-Regulator, 7-28V input, 5V fixed Output Voltage, LM78xx replacement, -40°C to +85°C, SIP3"
+			(at 59.69 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Inv. number" "N/A"
+			(at 59.69 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mnf. number" "N/A"
+			(at 59.69 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Ali"
+			(at 59.69 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price (CZK) /pc" "7,92"
 			(at 59.69 43.18 0)
 			(effects
 				(font
@@ -6011,7 +6273,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.aliexpress.com/item/1005007162182882.html"
 			(at 241.3 44.45 0)
 			(effects
 				(font
@@ -6021,6 +6283,42 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
+			(at 241.3 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Inv. number" "N/A"
+			(at 241.3 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mnf. number" "SS12D00"
+			(at 241.3 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Ali"
+			(at 241.3 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price (CZK) /pc" "0,94"
 			(at 241.3 36.83 0)
 			(effects
 				(font
@@ -6083,7 +6381,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.patlcell.com/en/product/product-414.html"
 			(at 44.45 87.376 90)
 			(effects
 				(font
@@ -6093,6 +6391,42 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
+			(at 44.45 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Inv. number" "N/A"
+			(at 44.45 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mnf. number" "13400"
+			(at 44.45 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Re-Use"
+			(at 44.45 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price (CZK) /pc" "0"
 			(at 44.45 88.9 0)
 			(effects
 				(font
@@ -6153,7 +6487,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.aliexpress.com/item/1005002870807425.html"
 			(at 39.37 49.276 90)
 			(effects
 				(font
@@ -6163,6 +6497,42 @@
 			)
 		)
 		(property "Description" "Single solar cell"
+			(at 39.37 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Inv. number" "N/A"
+			(at 39.37 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mnf. number" "AK68X36"
+			(at 39.37 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Ali"
+			(at 39.37 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price (CZK) /pc" "21,53"
 			(at 39.37 50.8 0)
 			(effects
 				(font
@@ -6553,7 +6923,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.aliexpress.com/item/1005002870807425.html"
 			(at 22.86 49.276 90)
 			(effects
 				(font
@@ -6563,6 +6933,42 @@
 			)
 		)
 		(property "Description" "Single solar cell"
+			(at 22.86 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Inv. number" "N/A"
+			(at 22.86 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mnf. number" "AK68X36"
+			(at 22.86 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Ali"
+			(at 22.86 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price (CZK) /pc" "21,53"
 			(at 22.86 50.8 0)
 			(effects
 				(font
@@ -6642,6 +7048,42 @@
 				(hide yes)
 			)
 		)
+		(property "Inv. number" ""
+			(at 201.93 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mnf. number" ""
+			(at 201.93 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 201.93 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price (CZK) /pc" "0"
+			(at 201.93 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "03d776db-b0db-4ab1-af29-37dd68430ef2")
 		)
@@ -6700,6 +7142,42 @@
 			)
 		)
 		(property "Description" "3-pole Solder Jumper, pins 1+2 closed/bridged"
+			(at 116.84 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Inv. number" ""
+			(at 116.84 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mnf. number" ""
+			(at 116.84 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 116.84 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price (CZK) /pc" "0"
 			(at 116.84 147.32 0)
 			(effects
 				(font
@@ -6877,7 +7355,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x06"
+		(property "Value" "Conn_01x04"
 			(at 24.13 151.1299 0)
 			(effects
 				(font
@@ -6906,6 +7384,42 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 26.67 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Inv. number" ""
+			(at 26.67 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mnf. number" ""
+			(at 26.67 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 26.67 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price (CZK) /pc" "0"
 			(at 26.67 149.86 0)
 			(effects
 				(font
@@ -6972,7 +7486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RC0603JR-0712KL_C137662.pdf"
 			(at 54.61 85.09 0)
 			(effects
 				(font
@@ -6982,6 +7496,42 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 54.61 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Inv. number" "C137662"
+			(at 54.61 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mnf. number" "RC0603JR-0712KL"
+			(at 54.61 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 54.61 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price (CZK) /pc" "0,024"
 			(at 54.61 85.09 0)
 			(effects
 				(font
@@ -7042,7 +7592,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RC0603FR-0722KL_C114065.pdf"
 			(at 54.61 95.25 0)
 			(effects
 				(font
@@ -7052,6 +7602,42 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 54.61 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Inv. number" "C114065"
+			(at 54.61 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mnf. number" "RC0603FR-0722KL"
+			(at 54.61 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 54.61 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price (CZK) /pc" "0,029"
 			(at 54.61 95.25 0)
 			(effects
 				(font
@@ -7195,6 +7781,42 @@
 				(hide yes)
 			)
 		)
+		(property "Inv. number" ""
+			(at 116.84 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mnf. number" ""
+			(at 116.84 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 116.84 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price (CZK) /pc" "0"
+			(at 116.84 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "edb20e0d-60c1-4f79-9261-2fc6fb825f78")
 		)
@@ -7267,6 +7889,42 @@
 				(hide yes)
 			)
 		)
+		(property "Inv. number" ""
+			(at 116.84 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mnf. number" ""
+			(at 116.84 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 116.84 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price (CZK) /pc" "0"
+			(at 116.84 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "cf1903e8-d946-4dfd-8877-68afb4e71778")
 		)
@@ -7321,7 +7979,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2409302330_ZHOURI-PM2-54-1-20_C5224030.pdf"
 			(at 137.16 64.77 0)
 			(effects
 				(font
@@ -7331,6 +7989,42 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x20, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 137.16 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Inv. number" "N/A"
+			(at 137.16 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mnf. number" "N/A"
+			(at 137.16 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Ali"
+			(at 137.16 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price (CZK) /pc" "2.17"
 			(at 137.16 64.77 0)
 			(effects
 				(font
@@ -7464,6 +8158,42 @@
 				(hide yes)
 			)
 		)
+		(property "Inv. number" ""
+			(at 214.63 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mnf. number" ""
+			(at 214.63 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 214.63 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price (CZK) /pc" "0"
+			(at 214.63 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d1c03818-7705-4cf3-b757-ae038c3bc7fc")
 		)
@@ -7494,7 +8224,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x06"
+		(property "Value" "Conn_01x04"
 			(at 77.47 132.0799 0)
 			(effects
 				(font
@@ -7523,6 +8253,42 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 74.93 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Inv. number" ""
+			(at 74.93 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mnf. number" ""
+			(at 74.93 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 74.93 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price (CZK) /pc" "0"
 			(at 74.93 130.81 0)
 			(effects
 				(font
@@ -7655,7 +8421,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2409302330_ZHOURI-PM2-54-1-20_C5224030.pdf"
 			(at 152.4 64.77 0)
 			(effects
 				(font
@@ -7665,6 +8431,42 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x20, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 152.4 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Inv. number" "N/A"
+			(at 152.4 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mnf. number" "N/A"
+			(at 152.4 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "Ali"
+			(at 152.4 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price (CZK) /pc" "2.17"
 			(at 152.4 64.77 0)
 			(effects
 				(font
@@ -7826,7 +8628,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x06"
+		(property "Value" "Conn_01x04"
 			(at 77.47 151.1299 0)
 			(effects
 				(font
@@ -7855,6 +8657,42 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 74.93 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Inv. number" ""
+			(at 74.93 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mnf. number" ""
+			(at 74.93 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" ""
+			(at 74.93 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price (CZK) /pc" "0"
 			(at 74.93 149.86 0)
 			(effects
 				(font
@@ -7919,7 +8757,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.farnell.com/datasheets/1689669.pdf"
 			(at 62.23 81.28 0)
 			(effects
 				(font
@@ -7947,6 +8785,42 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 62.23 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Inv. number" "C53568"
+			(at 62.23 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mnf. number" "1N4007RLG"
+			(at 62.23 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 62.23 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Price (CZK) /pc" "1"
 			(at 62.23 81.28 0)
 			(effects
 				(font

@@ -1,0 +1,11 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+BT1,SolderWire-0.5sqmm_1x02_P4.6mm_D0.9mm_OD2.1mm,1,Battery_Cell,
+D1,D_A-405_P10.16mm_Horizontal,1,SYSD,
+"J1, J2",PinSocket_1x20_P2.54mm_Vertical,2,Conn_01x20,
+"J3, J4, J5, J6, J7, J8",PinSocket_1x04_P2.54mm_Vertical,6,Conn_01x04,
+R1,0603,1,22k,
+R2,0603,1,12k,
+"SC1, SC2",PinHeader_1x02_P2.54mm_Vertical,2,Solar_Cell,
+SW1,PinHeader_1x03_P2.54mm_Vertical,1,SW_SPDT,
+U1,TP4056-18650,1,BMM,
+U2,DC-DC BOOST Convertor module,1,DC/DC 5V out,
